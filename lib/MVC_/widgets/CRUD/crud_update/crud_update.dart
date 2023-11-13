@@ -57,6 +57,7 @@ class _CrudInsertDatosPersonaState extends State<CrudUpdateDatosPersona> {
                   controller: id,
                   decoration: const InputDecoration(labelText: 'id'),
                   keyboardType: TextInputType.text,
+                  enabled: false,
                 ),
               ),
               Container(
